@@ -1,0 +1,18 @@
+section.about{
+    background-image:
+        linear-gradient(to bottom, rgba(0,0,0,.95), rgba(0,0,0,.75), rgba(0,0,0,.95), rgba(0,0,0,1)),
+        url("../images/background/nosotros.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 300px !important;
+    margin-top: 200px;
+    h1.rrss{
+        text-align: center !important;
+        font-size: 1.5em !important;
+    }
+    p{
+        text-align: justify;
+    }
+}

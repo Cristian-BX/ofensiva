@@ -1,0 +1,47 @@
+section.home{
+    background-image:
+        linear-gradient(to bottom, rgba(0,0,0,.9), rgba(0,0,0,.7), rgba(0,0,0,.9), rgba(0,0,0,.95), rgba(0,0,0,1)),
+        url("../images/background/pm.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1{
+        position: absolute;
+        font-family: 'Roboto Mono', monospace;
+        color: white;
+        font-size: 3.5em !important;
+        span.parpadea {
+            color: darkgreen;
+            animation-name: parpadeo;
+            animation-duration: 1s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            -webkit-animation-name:parpadeo;
+            -webkit-animation-duration: 1s;
+            -webkit-animation-timing-function: linear;
+            -webkit-animation-iteration-count: infinite;
+          }
+    }
+      @-moz-keyframes parpadeo{
+        0% { opacity: 1.0; }
+        50% { opacity: 0.0; }
+        100% { opacity: 1.0; }
+      }
+
+      @-webkit-keyframes parpadeo {
+        0% { opacity: 1.0; }
+        50% { opacity: 0.0; }
+         100% { opacity: 1.0; }
+      }
+
+      @keyframes parpadeo {
+        0% { opacity: 1.0; }
+         50% { opacity: 0.0; }
+        100% { opacity: 1.0; }
+      }
+
+}
