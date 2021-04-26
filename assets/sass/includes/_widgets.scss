@@ -1,0 +1,42 @@
+.widget_recent_entries{
+  ul{
+    margin-bottom: 1em !important;
+    li{
+      padding: .25em;
+      a{
+        padding: .25em;
+        text-decoration: none;
+      }
+      a:hover{
+        border-radius: 5px;
+        color: black !important;
+        background-color: rgba(255,255,255,.8);
+      }
+    }
+  }
+}
+.wp-calendar-table{
+  font-family: 'Source Code Pro', monospace;
+  width: 100%;
+  max-width: 100% !important;
+  text-align: center;
+  caption{
+    visibility:hidden;
+  }
+  thead{
+    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black !important;
+    border-bottom: 1px white solid;
+    margin-bottom: 1em !important;
+  }
+  td{
+    color: white;
+    a{
+      font-weight: bold;
+      color: black;
+      padding: .15em;
+      background-color: rgba(255,255,255,.85);
+      border-radius: .25em;
+      text-decoration: none;
+    }
+  }
+}

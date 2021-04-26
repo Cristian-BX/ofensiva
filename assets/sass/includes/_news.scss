@@ -3,7 +3,7 @@ section.news{
     max-height: auto !important;
     div.row{
         div.col-12{
-            margin-top: .5em;
+            // margin-top: .5em;
             div.body{
                 background-color: rgba(133, 133, 133, .25);
                 font-family: 'Source Code Pro', monospace !important;
@@ -14,6 +14,8 @@ section.news{
                       color: white;
                       text-decoration: none !important;
                       h2{
+                          box-sizing: content-box;
+                          width: 100%;
                           text-transform: uppercase;
                           padding: .5em;
                       }
@@ -100,4 +102,8 @@ section.news{
         margin-top: 2em;
     }
 
+}
+
+section.news-category{
+  margin-bottom: 200px !important;
 }
