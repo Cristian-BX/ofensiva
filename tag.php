@@ -2,14 +2,24 @@
 <section id="noticias" class="news news-category container">
 
         <h1>
-          /Noticias_/<?php single_cat_title(); ?>
+          <!-- <span class="material-icons md-48 md-light">
+          feed
+          </span> -->
+
+          /Noticias_/<?php single_tag_title (); ?>
         </h1>
         <br><hr style="color:white;"><br>
         <div class="row">
-          <?php while ( have_posts() ) : the_post(); ?>
+          <?php while (have_posts() ) : the_post(); ?>
             <div class="col-12 col-md-12 col-lg-6">
               <div id="post" class="body"
-              >
+              style="
+                    background-image:
+                      linear-gradient(to bottom, rgba(0,0,0,.9), rgba(0,0,0,.7), rgba(0,0,0,.5), rgba(0,0,0,.95), rgba(0,0,0,1)),
+                      url('<?php echo get_the_post_thumbnail_url(); ?>');
+                  background-size: 100% 100%;
+                  background-repeat: no-repeat;
+              ">
                 <div class="content">
                   <a href="<?php the_permalink(); ?>">
                     <!-- <?php

@@ -2,7 +2,6 @@
 
 get_header();
 ?>
-
 <main id="main" class="site-main" role="main">
 
 	<?php

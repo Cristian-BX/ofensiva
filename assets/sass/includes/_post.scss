@@ -6,6 +6,7 @@ section.only-new{
     background-repeat: no-repeat;
     height: 100vh;
     font-family: 'Roboto Mono', monospace;
+    margin-top: 5em;
     div{
         h1.title-section{
             color: white;
@@ -177,6 +178,7 @@ section.only-new{
                     }
                     div.comment-respond{
                         margin: auto;
+                        margin-bottom:20em;
                         max-width: 80%;
                         // margin: .5em;
                         padding: 1em;
@@ -218,7 +220,6 @@ section.only-new{
 
             }
             div.col-12.col-md-3{
-              padding: 0px !important;
                 margin-bottom: 200px !important;
                 .aside{
                     padding: .5em;

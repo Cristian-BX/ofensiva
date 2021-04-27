@@ -1,48 +1,48 @@
 section.news{
     padding-top: 100px;
-    max-height: auto !important;
     div.row{
-        div.col-12{
-            // margin-top: .5em;
+        div.col-sm-12{
             div.body{
-                background-color: rgba(133, 133, 133, .25);
                 font-family: 'Source Code Pro', monospace !important;
                 color: white;
                 div.content{
+                  background-color: white;
                   padding: 1em;
                   a{
                       color: white;
                       text-decoration: none !important;
                       h2{
+                          font-size:1.25vw;
                           box-sizing: content-box;
-                          width: 100%;
-                          text-transform: uppercase;
+                          text-transform: uppercase !important;
                           padding: .5em;
+                          max-height: 200px !important;
+                          // border: 1px solid red;
                       }
-                      p{
-                          margin-top: -.51em;
-                          padding-bottom: 1.5em;
-                          visibility:hidden;
-                          opacity:0;
-                          transition: visibility 0.3s linear,opacity 0.3s linear;
-                      }
+                      // p{
+                      //     margin-top: -.51em;
+                      //     padding-bottom: 1.5em;
+                      //     visibility:hidden;
+                      //     opacity:0;
+                      //     transition: visibility 0.3s linear,opacity 0.3s linear;
+                      // }
                   }
                 }
-                div.content:hover{
-                  background-color: rgba(0,0,0,.5);
-                  transition:background-color .3s;
-                  a{
-                      h2{
-                          transition:text-shadow 0.2s linear;
-                      }
-                      p{
-                          visibility:visible;
-                          opacity:1;
-                          border-bottom: 1px solid white;
-                          transition:visibility 0.3s linear,opacity 0.3s linear border-bottom 2s linear;
-                      }
-                  }
-                }
+                // div.content:hover{
+                //   background-color: rgba(0,0,0,.5);
+                //   transition:background-color .3s;
+                //   a{
+                //       h2{
+                //           transition:text-shadow 0.2s linear;
+                //       }
+                //       p{
+                //           visibility:visible;
+                //           opacity:1;
+                //           border-bottom: 1px solid white;
+                //           transition:visibility 0.3s linear,opacity 0.3s linear border-bottom 2s linear;
+                //       }
+                //   }
+                // }
                 div.footer{
                     margin-top: 12em;
                     text-align: center;

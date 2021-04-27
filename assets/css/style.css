@@ -65,44 +65,43 @@ div#sidebar div.logo {
 
 /* line 18, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_sidebar.scss */
 div#sidebar div.logo a img {
-  margin-top: 1em;
   max-width: 50px;
   transform: rotate(0deg);
   transition-duration: 1s;
 }
 
-/* line 24, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_sidebar.scss */
+/* line 23, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_sidebar.scss */
 div#sidebar div.logo a img:hover {
   transition-duration: 1s;
   transform: rotate(360deg);
 }
 
-/* line 31, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_sidebar.scss */
+/* line 30, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_sidebar.scss */
 div#sidebar ul {
   margin-top: 250px;
 }
 
-/* line 33, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_sidebar.scss */
+/* line 32, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_sidebar.scss */
 div#sidebar ul li {
   list-style: none;
   text-align: left;
-  padding: 10px 10px;
+  padding: 10px 0px;
 }
 
-/* line 37, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_sidebar.scss */
+/* line 36, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_sidebar.scss */
 div#sidebar ul li a {
-  font-size: 1.2em;
+  font-size: 1em;
   color: white;
   text-decoration: none;
   font-family: 'Roboto Mono', monospace;
 }
 
-/* line 44, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_sidebar.scss */
+/* line 43, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_sidebar.scss */
 div#sidebar ul li:hover {
   border-bottom: 2px solid rgba(255, 255, 255, 0.9);
 }
 
-/* line 49, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_sidebar.scss */
+/* line 48, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_sidebar.scss */
 .active {
   right: 0px !important;
 }
@@ -179,78 +178,50 @@ section.home h1 span.parpadea {
 /* line 1, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_news.scss */
 section.news {
   padding-top: 100px;
-  max-height: auto !important;
 }
 
-/* line 7, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_news.scss */
-section.news div.row div.col-12 div.body {
-  background-color: rgba(133, 133, 133, 0.25);
+/* line 5, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_news.scss */
+section.news div.row div.col-sm-12 div.body {
   font-family: 'Source Code Pro', monospace !important;
   color: white;
 }
 
-/* line 11, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_news.scss */
-section.news div.row div.col-12 div.body div.content {
+/* line 8, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_news.scss */
+section.news div.row div.col-sm-12 div.body div.content {
+  background-color: white;
   padding: 1em;
 }
 
-/* line 13, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_news.scss */
-section.news div.row div.col-12 div.body div.content a {
+/* line 11, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_news.scss */
+section.news div.row div.col-sm-12 div.body div.content a {
   color: white;
   text-decoration: none !important;
 }
 
-/* line 16, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_news.scss */
-section.news div.row div.col-12 div.body div.content a h2 {
+/* line 14, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_news.scss */
+section.news div.row div.col-sm-12 div.body div.content a h2 {
+  font-size: 1.25vw;
   box-sizing: content-box;
-  width: 100%;
-  text-transform: uppercase;
+  text-transform: uppercase !important;
   padding: .5em;
-}
-
-/* line 22, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_news.scss */
-section.news div.row div.col-12 div.body div.content a p {
-  margin-top: -.51em;
-  padding-bottom: 1.5em;
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0.3s linear,opacity 0.3s linear;
-}
-
-/* line 31, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_news.scss */
-section.news div.row div.col-12 div.body div.content:hover {
-  background-color: rgba(0, 0, 0, 0.5);
-  transition: background-color .3s;
-}
-
-/* line 35, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_news.scss */
-section.news div.row div.col-12 div.body div.content:hover a h2 {
-  transition: text-shadow 0.2s linear;
-}
-
-/* line 38, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_news.scss */
-section.news div.row div.col-12 div.body div.content:hover a p {
-  visibility: visible;
-  opacity: 1;
-  border-bottom: 1px solid white;
-  transition: visibility 0.3s linear,opacity 0.3s linear border-bottom 2s linear;
+  max-height: 200px !important;
 }
 
 /* line 46, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_news.scss */
-section.news div.row div.col-12 div.body div.footer {
+section.news div.row div.col-sm-12 div.body div.footer {
   margin-top: 12em;
   text-align: center;
   color: white;
 }
 
 /* line 51, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_news.scss */
-section.news div.row div.col-12 div.body div.footer h4 ul.post-categories {
+section.news div.row div.col-sm-12 div.body div.footer h4 ul.post-categories {
   list-style: none;
   text-align: right;
 }
 
 /* line 55, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_news.scss */
-section.news div.row div.col-12 div.body div.footer h4 ul.post-categories li a {
+section.news div.row div.col-sm-12 div.body div.footer h4 ul.post-categories li a {
   color: white;
   text-decoration: none;
   text-shadow: -3px -1px 0 #700202;
@@ -262,7 +233,7 @@ section.news div.row div.col-12 div.body div.footer h4 ul.post-categories li a {
 }
 
 /* line 69, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_news.scss */
-section.news div.row div.col-12 div.body div.footer span {
+section.news div.row div.col-sm-12 div.body div.footer span {
   font-size: .75em;
 }
 
@@ -335,9 +306,10 @@ section.only-new {
   background-repeat: no-repeat;
   height: 100vh;
   font-family: 'Roboto Mono', monospace;
+  margin-top: 5em;
 }
 
-/* line 10, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 11, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div h1.title-section {
   color: white;
   border-bottom: 1px solid white;
@@ -348,45 +320,45 @@ section.only-new div h1.title-section {
   text-shadow: -3px -1px 0 #700202;
 }
 
-/* line 19, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 20, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row {
   margin: auto;
 }
 
-/* line 21, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 22, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-9 {
   margin-bottom: 12em !important;
 }
 
-/* line 23, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 24, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-9 h3#comments {
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
-/* line 27, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 28, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-9 article.data-new {
   margin-top: .5em !important;
   margin-bottom: .5em !important;
 }
 
-/* line 30, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 31, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-9 article.data-new header.entry-header {
   z-index: 20;
 }
 
-/* line 32, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 33, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-9 article.data-new header.entry-header div.thumb {
   height: 60vh;
 }
 
-/* line 35, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 36, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-9 article.data-new header.entry-header div.thumb h2 ul.post-categories {
   list-style: none;
   text-align: right;
 }
 
-/* line 39, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 40, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-9 article.data-new header.entry-header div.thumb h2 ul.post-categories li a {
   color: white;
   text-decoration: none;
@@ -399,20 +371,20 @@ section.only-new div div.row div.col-12.col-md-9 article.data-new header.entry-h
   border: 0.001em solid rgba(255, 255, 255, 0.5);
 }
 
-/* line 54, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 55, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-9 article.data-new header.entry-header div.thumb h1.title-new {
   margin-left: .5em;
   margin-bottom: .5em;
   text-align: left !important;
 }
 
-/* line 58, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 59, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-9 article.data-new header.entry-header div.thumb h1.title-new a {
   text-decoration: none !important;
   color: white;
 }
 
-/* line 73, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 74, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-9 article.data-new header.entry-header div.data-new {
   color: white;
   margin-top: 1em !important;
@@ -423,28 +395,28 @@ section.only-new div div.row div.col-12.col-md-9 article.data-new header.entry-h
   padding-bottom: 2em;
 }
 
-/* line 82, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 83, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-9 article.data-new header.entry-header div.data-new span.tags a {
   color: white;
   text-decoration: none;
   text-shadow: -3px -1px 0 #700202;
 }
 
-/* line 90, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 91, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-9 article.data-new header.entry-header div.title-page h1.title-new {
   margin-left: 2em;
   margin-bottom: 3em;
   text-align: left !important;
 }
 
-/* line 94, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 95, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-9 article.data-new header.entry-header div.title-page h1.title-new a {
   text-decoration: none !important;
   color: white;
   font-size: 2em;
 }
 
-/* line 103, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 104, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-9 article.data-new div.entry-content div.content {
   color: white;
   width: 95%;
@@ -455,26 +427,26 @@ section.only-new div div.row div.col-12.col-md-9 article.data-new div.entry-cont
   z-index: 1 !important;
 }
 
-/* line 113, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 114, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-9 article.data-new div.entry-content div.content img {
   width: 95% !important;
   height: auto;
   aspect-ratio: 2/1;
 }
 
-/* line 122, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 123, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-9 h3#comments {
   width: 50%;
   margin: auto;
 }
 
-/* line 131, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 132, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-9 ol.commentlist ul, section.only-new div div.row div.col-12.col-md-9 ol.commentlist li {
   list-style: none;
   padding: .5em;
 }
 
-/* line 135, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 136, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-9 ol.commentlist div.comment-body {
   font-size: .9em;
   padding: 1.5em;
@@ -488,27 +460,27 @@ section.only-new div div.row div.col-12.col-md-9 ol.commentlist div.comment-body
   margin-bottom: .5em !important;
 }
 
-/* line 148, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 149, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-9 ol.commentlist div.comment-body div.comment-meta a, section.only-new div div.row div.col-12.col-md-9 ol.commentlist div.comment-body div.comment-author a {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
 }
 
-/* line 155, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 156, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-9 ol.commentlist div.comment-body p a {
   color: white;
   text-decoration: none;
 }
 
-/* line 161, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 162, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-9 ol.commentlist div.comment-body div.reply {
   text-align: right;
   margin-right: 2em;
   margin-top: 1em;
 }
 
-/* line 165, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 166, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-9 ol.commentlist div.comment-body div.reply a.comment-reply-link {
   font-size: .75em;
   color: white;
@@ -520,26 +492,27 @@ section.only-new div div.row div.col-12.col-md-9 ol.commentlist div.comment-body
   border: 2px solid white;
 }
 
-/* line 178, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 179, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-9 div.comment-respond {
   margin: auto;
+  margin-bottom: 20em;
   max-width: 80%;
   padding: 1em;
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-/* line 185, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 187, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-9 div.comment-respond h3, section.only-new div div.row div.col-12.col-md-9 div.comment-respond label {
   text-shadow: -3px -1px 0 #700202;
 }
 
-/* line 188, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 190, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-9 div.comment-respond a {
   text-decoration: none;
   color: black;
 }
 
-/* line 195, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 197, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-9 div.comment-respond form.comment-form p input, section.only-new div div.row div.col-12.col-md-9 div.comment-respond form.comment-form p .ofsv {
   padding: 5px;
   width: 100%;
@@ -550,12 +523,12 @@ section.only-new div div.row div.col-12.col-md-9 div.comment-respond form.commen
   font-family: 'Source';
 }
 
-/* line 205, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 207, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-9 div.comment-respond form.comment-form p.form-submit {
   text-align: center;
 }
 
-/* line 207, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 209, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-9 div.comment-respond form.comment-form p.form-submit input.submit {
   color: white;
   padding: 1em;
@@ -565,70 +538,69 @@ section.only-new div div.row div.col-12.col-md-9 div.comment-respond form.commen
   text-transform: uppercase;
 }
 
-/* line 220, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 222, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-3 {
-  padding: 0px !important;
   margin-bottom: 200px !important;
 }
 
-/* line 223, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 224, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-3 .aside {
   padding: .5em;
   background-color: rgba(255, 255, 255, 0.25);
   border-radius: 1em;
 }
 
-/* line 227, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 228, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-3 .aside .widget-title {
   text-align: center;
   text-transform: uppercase;
 }
 
-/* line 231, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 232, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-3 .aside ul {
   padding: 0;
 }
 
-/* line 233, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 234, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-3 .aside ul li {
   padding: 0s;
   list-style: none;
   text-align: left;
 }
 
-/* line 237, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 238, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-3 .aside ul li a {
   color: white;
   font-family: 'Roboto Mono', monospace;
   text-transform: uppercase;
 }
 
-/* line 249, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 250, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-3 h3.new-aside {
   text-align: center;
 }
 
-/* line 252, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 253, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-3 div.card {
   background-color: rgba(133, 133, 133, 0.25) !important;
   font-family: 'Source Code Pro', monospace !important;
   color: white;
 }
 
-/* line 256, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 257, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-3 div.card a {
   color: white;
   text-decoration: none !important;
 }
 
-/* line 259, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 260, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-3 div.card a h5 {
   text-align: center !important;
   text-transform: uppercase;
   font-size: 1.5em !important;
 }
 
-/* line 265, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
+/* line 266, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/_post.scss */
 section.only-new div div.row div.col-12.col-md-3 div.card a:hover {
   color: rgba(92, 89, 89, 0.8);
   font-size: 1.02em;
@@ -781,7 +753,6 @@ footer h2 {
   html {
     padding: 0px !important;
     margin: auto;
-    background-color: rgba(0, 0, 0, 0.25) !important;
   }
   /* line 3, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/responsive/_post.scss */
   section.only-new div.text-white {
@@ -801,22 +772,13 @@ footer h2 {
     color: white;
     text-decoration: none;
   }
-  /* line 1, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/responsive/_footer.scss */
-  footer {
-    width: 95% !important;
-    margin: auto;
-    padding: 0px !important;
+  /* line 2, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/responsive/_sidebar.scss */
+  nav div.container.ms-5 {
+    margin-left: -200px;
   }
-  /* line 5, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/responsive/_footer.scss */
-  footer div.row {
-    width: 90% !important;
-    margin: 0px;
-    padding: 0px;
-  }
-  /* line 9, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/responsive/_footer.scss */
-  footer div.row div.col-md-6 {
-    margin: 0px;
-    padding: 0px;
+  /* line 7, ../../../../../xampp/htdocs/ofensiva/wp-content/themes/ofensiva/assets/sass/includes/responsive/_sidebar.scss */
+  div.sidebar div.logo {
+    margin-top: 5px;
   }
 }
 

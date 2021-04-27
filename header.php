@@ -12,7 +12,7 @@
 
   <body>
     <nav class="navbar fixed-top">
-        <div class="container">
+        <div class="container ms-1">
           <a class="navbar-brand" href="<?php echo get_site_url();?>">
             <img class='logo_ofsv' src="<?php echo get_template_directory_uri();?>/assets/images/logos/logo_ofsv.png" alt="" width="150">
           </a>
